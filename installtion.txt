@@ -1,0 +1,16 @@
+step 1. Create folder 3380-web-application
+step 2. Create folders frontend and backend inside the 3380-web-application directory
+
+// INSTALL REACT.JS AND REACT PACKAGES
+cd ./3380-web-application/frontend/
+sudo apt install npm
+sudo npm -g install create-react-app
+create-react-app frontend
+npm audit fix
+npm install axios
+
+// INSTALL BACKEND
+cd ./3380-web-application/backend/
+npm init
+npm install express --save
+npm install --save-dev nodemon
